@@ -41,6 +41,23 @@
     box-shadow: 0 5px 60px rgba($color: #242323, $alpha: .5);
   }
 
+  &-img-engineering{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    min-width: 250px;
+    min-height: 250px;
+    background-image: url('./../img/engineering.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    top: -60px;
+    left: 50px;
+    border-radius: 10px;
+    z-index: 3;
+    box-shadow: 0 5px 60px rgba($color: #242323, $alpha: .5);
+  }
+
   &-img2{
     position: relative;
     width: 250px;
